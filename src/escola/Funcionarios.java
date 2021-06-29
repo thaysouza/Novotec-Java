@@ -4,9 +4,12 @@ public class Funcionarios {
 	
 	protected String nome;
 	protected double salario;
-	
+	protected double bonus;
 
-	public String getNome() {
+	public double calcularSalario(){
+		return salario;
+	}
+    public String getNome() {
 		return nome;
 	}
 
@@ -21,6 +24,15 @@ public class Funcionarios {
 	public void setSalario(double salario) {
 		this.salario = salario;
 	}
+	
+	public double getBonus() {
+		return bonus;
+	}
+
+	public void setBonus(double bonus) {
+		this.bonus = bonus;
+	}
+
 
 
 
